@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Internet of Things Project</title>
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial, sans-serif;
+margin:0;
+background:#f4f7fb;
+color:#1f2937;
+}
+
+header{
+background:#2563eb;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#c7d2fe;
+}
+
+section{
+padding:60px 10%;
+}
+
+.hero{
+height:85vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#2563eb,#60a5fa);
+color:white;
+}
+
+.hero h1{
+font-size:55px;
+}
+
+.hero p{
+font-size:20px;
+margin:20px;
+}
+
+.btn{
+background:lightpink;
+padding:12px 25px;
+text-decoration:none;
+color:#2563eb;
+border-radius:6px;
+font-weight:bold;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:pink;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:all 0.35s ease;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.03);
+box-shadow:0 12px 25px rgba(0,0,0,0.15);
+}
+
+h1{
+color:#2563eb;
+margin-bottom:20px;
+position:relative;
+}
+
+h1::after{
+content:"";
+width:60px;
+height:4px;
+background:#2563eb;
+display:block;
+margin-top:8px;
+border-radius:3px;
+}
+
+#about{
+background:#eef4ff;
+}
+
+#applications{
+background:#f8fbff;
+}
+
+#advantages{
+background:#eef7f3;
+}
+
+#future{
+background:#f9f6ff;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#1e3a8a;
+color:white;
+}
+
+input,textarea{
+width:100%;
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+background:#2563eb;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:5px;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h2>Internet of Things (IoT)</h2>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#applications">Applications</a>
+<a href="#advantages">Advantages</a>
+<a href="#future">Future</a>
+</nav>
+
+</header>
+
+
+<section id="home" class="hero">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2721/2721296.png" width="120">
+
+<h1>Internet of Things</h1>
+
+<p>Connecting everyday devices to the internet</p>
+
+<a href="#about" class="btn">Explore IoT</a>
+
+</section>
+
+
+<section id="about">
+
+<h1>About IoT</h1>
+
+<div class="card">
+
+<p>
+The Internet of Things (IoT) is a network of physical devices connected
+to the internet. These devices contain sensors, software, and technology
+that allow them to collect and exchange data.
+</p>
+
+<p>
+IoT enables machines and devices to communicate with each other and
+automatically perform tasks without constant human involvement.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>How IoT Works</h3>
+
+<ul>
+<li>Devices collect data using sensors</li>
+<li>Data is sent through internet networks</li>
+<li>Cloud systems analyze the data</li>
+<li>Users control devices through apps</li>
+</ul>
+
+</div>
+
+</section>
+
+
+<section id="applications">
+
+<h1>Applications of IoT</h1>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2913/2913465.png" width="80">
+
+<h3>Smart Homes</h3>
+
+<p>
+IoT devices like smart lights, smart locks, and security cameras allow
+people to control their homes remotely.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2966/2966487.png" width="80">
+
+<h3>Healthcare</h3>
+
+<p>
+Wearable health devices monitor heart rate, sleep patterns, and patient
+health conditions in real time.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/3062/3062634.png" width="80">
+
+<h3>Smart Cities</h3>
+
+<p>
+IoT helps manage traffic systems, smart street lights, and waste
+management for better urban life.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2909/2909768.png" width="80">
+
+<h3>Smart Agriculture</h3>
+
+<p>
+Farmers use IoT sensors to monitor soil moisture, weather conditions,
+and crop health.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="advantages">
+
+<h1>Advantages and Challenges</h1>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Advantages</h3>
+
+<ul>
+<li>Automation of daily tasks</li>
+<li>Improved efficiency</li>
+<li>Better data analysis</li>
+<li>Remote monitoring</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>Challenges</h3>
+
+<ul>
+<li>Security risks</li>
+<li>Privacy concerns</li>
+<li>High implementation cost</li>
+<li>Dependence on internet</li>
+</ul>
+
+</div>
+
+</div>
+
+<section id="future">
+
+<h1>Future of IoT</h1>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2721/2721265.png" width="70">
+
+<h3>Smart Cities</h3>
+
+<p>
+In the future, IoT will play a major role in building smart cities.
+Traffic lights will automatically adjust based on traffic conditions,
+waste bins will notify authorities when they are full, and street
+lights will turn on only when movement is detected. These systems
+will help cities become more efficient, safe, and environmentally friendly.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2942/2942813.png" width="70">
+
+<h3>Healthcare Revolution</h3>
+
+<p>
+IoT will transform healthcare through smart medical devices and
+wearable technology. Doctors will be able to monitor patients
+remotely using connected sensors that track heart rate, body
+temperature, and other health indicators. This will improve
+early diagnosis and allow faster medical responses.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/4149/4149673.png" width="70">
+
+<h3>Smart Transportation</h3>
+
+<p>
+IoT will help create intelligent transportation systems.
+Connected vehicles will communicate with each other to avoid
+traffic congestion and accidents. Autonomous vehicles and
+smart parking systems will make transportation faster,
+safer, and more efficient.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="70">
+
+<h3>Industrial Automation</h3>
+
+<p>
+Industries will increasingly use Industrial IoT (IIoT) to
+monitor machines and production lines. Sensors will detect
+machine problems before they occur, reducing downtime and
+improving productivity. Factories will become smarter and
+more automated.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2909/2909768.png" width="70">
+
+<h3>Smart Agriculture</h3>
+
+<p>
+IoT will support farmers by monitoring soil conditions,
+weather patterns, and crop health through connected sensors.
+Farmers will receive real-time data that helps them use water,
+fertilizers, and pesticides more efficiently.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" width="70">
+
+<h3>Integration with AI and 5G</h3>
+
+<p>
+The combination of IoT with Artificial Intelligence and
+5G technology will make devices even smarter and faster.
+AI will analyze large amounts of data generated by IoT
+devices, while 5G networks will enable ultra-fast
+communication between billions of connected devices.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>Conclusion</h3>
+
+<p>
+The future of IoT is extremely promising. As technology continues
+to evolve, billions of smart devices will be connected to the
+internet, transforming how people live, work, and interact with
+technology. From smart homes and intelligent transportation
+systems to advanced healthcare monitoring and automated
+industries, IoT will become a key foundation of the digital world.
+</p>
+
+</div>
+
+</section>
+<form>
+
+<input type="text" placeholder="Your Name"><br><br>
+
+<input type="email" placeholder="Email"><br><br>
+
+<textarea placeholder="Your Message"></textarea><br><br>
+
+<button type="submit">Send</button>
+
+</form>
+
+
+<footer>
+
+<p> Project on Internet of Things | Created by Mr.Parson</p>
+
+</footer>
+
+</body>
+</html>
